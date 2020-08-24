@@ -1,5 +1,14 @@
 var tasks =  [];
 
+/*capture enter with keyboard;*/
+const input = document.querySelector('input#taskInput');
+input.addEventListener("keyup", function(event) {
+  if(event.keyCode === 13) {
+    event.preventDefault();
+    newTask();
+  }
+});
+
 function idGenerator() {
   const timestamp = new Date();
   const id = timestamp.getHours() + timestamp.getMinutes() + timestamp.getSeconds();
@@ -51,7 +60,7 @@ function updateScreen() {
             onclick="toggleCheckTask(this)">
             ${task.data.description}
           </span>
-          <input type="button" value="X" onclick="deleteTask(this)">`;
+          <input class="delete" type="button" value="X" onclick="deleteTask(this)">`;
     console.log(li);
     ul.appendChild(li);
   });
