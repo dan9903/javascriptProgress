@@ -1,4 +1,4 @@
-#TODO LIST
+# TODO LIST
 
 Esse é um projeto de estudos com a finalidade de treinar e aprender a usar JavaScript sem frameworks.
 
