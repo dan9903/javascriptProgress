@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(70, 142, 236);
+  font: normal 15pt Ubuntu;
+}
+
+header, footer {
+  color: white;
+  text-align: center;
+  margin: 3vh auto;
+}
+
+footer {
+  font-style: italic;
+}
+
+section {
+  padding: 15px;
+  border-radius: 10px;
+  background: white;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+section div {
+  text-align: center;
+  justify-items: center;
+  padding: 8px;
+}
+
+#taskInput {
+  font: normal 15pt Ubuntu;
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+#btnAdd {
+  font: 12pt Ubuntu;
+  padding: 2px 10px;
+  border: 2px solid rgb(61, 241, 16);
+  border-radius: 3px;
+  background-color: rgba(56, 230, 71, 0.788);
+}
+
+section div ul {
+  list-style: none;
+}
+
+section div ul li span {
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}

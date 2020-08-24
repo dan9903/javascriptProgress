@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO LIST</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>TODO LIST</h1>
+  </header>
+  <section>
+    <div id="input">
+      <input type="text" name="taskInput" id="taskInput" placeholder="Enter a task"/>
+      <input type="button" id="btnAdd" value="ADD" onclick="newTask()" />
+    </div>
+    <div id="content">
+      <ul id="todos">
+        <li>
+          <span>item a fazer</span>
+          <input type="button" value="X">
+        </li>
+        <li>
+          <span class="checked">segundo a fazer</span>
+          <input type="button" value="X">
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    &copy; ratasoft 2020.
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
