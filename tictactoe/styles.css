@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font: normal 18pt Ubuntu;
+  background-color: rgb(26, 26, 66);
+}
+
+header, footer {
+  margin-top: 8vh auto;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  padding: 15px;
+  border-radius: 10px;
+  background: rgb(38, 38, 82);
+  width: 450px;
+  margin: 4vh auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+  text-align: center;
+}
+
+#game {
+  margin-top: 2vh
+}
+
+#game table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+#game table tr td {
+  font: black;
+  min-width: 100px;
+  height: 150px;
+  font-size: 40pt;
+  background: white;
+  border-radius: 6px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#winner {
+  text-align: center;
+  margin: 3vh auto;
+  color: white;
+}
+
+#winner strong {
+  font-size: 50px;
+}
+
+button {
+  background: white;
+  font: bold 18pt Ubuntu;
+  border-radius: 6px;
+  padding: 5px 10px;
+  text-align: center;
+}

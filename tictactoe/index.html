@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>TIC TAC TOE</title>
+</head>
+<body>
+  <header>
+   <h1>TIC TAC TOE</h1>
+  </header>
+  <section>
+    <div id="game">
+      <table cellpadding="10">
+        <tr>
+          <td id="a1" onclick="mark(this)" class="winner"></td>
+          <td id="a2" onclick="mark(this)"></td>
+          <td id="a3" onclick="mark(this)"></td>
+        </tr>
+        <tr>
+          <td id="b1" onclick="mark(this)"></td>
+          <td id="b2" onclick="mark(this)"></td>
+          <td id="b3" onclick="mark(this)"></td>
+        </tr>
+        <tr>
+          <td id="c1" onclick="mark(this)"></td>
+          <td id="c2" onclick="mark(this)"></td>
+          <td id="c3" onclick="mark(this)"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="winner">
+    </div>
+      <button onclick="reloadGame()">Reload</button>
+  </section>
+  <footer>
+    &copy ratasoft 2020.
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
